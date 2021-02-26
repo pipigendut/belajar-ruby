@@ -1,0 +1,14 @@
+ssh-copy-id
+adduser
+
+
+sudo service nginx restart
+
+
+dataase postgresql
+su - postgres
+psql --user inspiron --password my_app
+createuser --pwprompt inspiron
+psql
+create database my_app with owner = inspiron
+

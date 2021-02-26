@@ -1,0 +1,66 @@
+Install ruby version :
+rbenv install 2.7.0
+
+Setting global ruby version :
+rbenv global 2.7.0
+
+Setting local ruby version :
+rbenv local jruby-9.2.13.0
+
+Cek ruby version :
+ruby -v
+
+Install bundler :
+gem install bundler
+
+Reload bundler :
+rbenv rehash
+
+List rbenv :
+rbenv install --list
+
+Nvm version :
+nvm --version
+
+Check nvm list:
+nvm ls
+
+Switch node :
+nvm use 10.16.2
+
+Node version :
+node -v
+
+Change postgresql port :
+- cd /etc/postgresql/12/main/
+- sudo nano postgresql.conf
+- ubah port = 5432
+
+Create new apps rails with postgresql : 
+rails new myapp --database=postgresql
+
+Jika ada error role not exist :
+- sudo -u postgres -i
+- psql template1
+- create role <username> superuser;
+- grant root to <username>;
+- alter role <username> with login;
+
+Create db from rails :
+rake db:create
+
+Rails routes : 
+http://localhost:3000/rails/info/routes
+
+Generate controller :
+rails generate controller Welcome index
+
+Generate Model :
+rails generate model Article title:string text:text
+
+Run Migration :
+rake db:migrate
+
+
+
+
