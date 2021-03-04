@@ -1,3 +1,9 @@
+=begin
+references :
+https://medium.com/rubycademy/the-singleton-module-in-ruby-part-i-7a26de39319d
+https://medium.com/rubycademy/the-singleton-module-in-ruby-part-ii-91b74366dd00
+=end
+
 require 'singleton'
 
 class Ebook
