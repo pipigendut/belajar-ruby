@@ -1,0 +1,82 @@
+{
+  // Workbench
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "vscode-icons",
+  
+  // Editor
+  "editor.tabSize": 2,
+  "editor.minimap.maxColumn": 200,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.lineHeight": 20,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'Cascadia Code'",
+  "editor.renderLineHighlight": "none",
+  "editor.matchBrackets": "near",
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "window.zoomLevel": 0,
+
+
+  // Zsh
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+
+  // Java
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "typescript": "jsx",
+    "typescriptreact": "jsx"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "prettier.useEditorConfig": false,
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": true,
+
+
+  // Ruby 
+  "ruby.useBundler": true, //run non-lint commands with bundle exec
+  // "ruby.useLanguageServer": true, // use the internal language server (see below)
+  "ruby.lint": {
+    "rubocop": true,
+    "reek": true
+  },
+  "ruby.format": "rubocop",
+  "emmet.triggerExpansionOnTab": true, // use rubocop for formatting
+  "auto-close-tag.activationOnLanguage": [
+    "xml",
+    "php",
+    "blade",
+    "ejs",
+    "jinja",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "plaintext",
+    "markdown",
+    "vue",
+    "liquid",
+    "erb",
+    "lang-cfml",
+    "cfml",
+    "HTML (Eex)",
+    "ruby"
+  ],
+  "gitlens.hovers.currentLine.over": "line",
+  "oneDarkPro.editorTheme": "onedarkPro"
+}

@@ -1,0 +1,20 @@
+extensions ruby dev :
+- Ruby -> Much advantage(see docs)
+  - gem install rcodetools
+  - gem install rubocop
+- Endwise -> Give end word end of block code
+- Ruby on Rails -> Auto Completion Typing
+- Vscode-icons -> File icons Vscode
+- Vscode Ruby -> Syntax Highlighthing
+- Rails runner test -> run specific file 
+- Rails go to spec -> creates spec file from current file (ctrl+shift+y)
+- Rails fast nav -> find out who is using the file (alt+r)
+- Auto close tag
+- AUto Rename Tag
+- Indent Rainbow
+- Gitlens -> see history git on code 
+- import cost -> knowing size need to import
+- Bracket pair colorizer
+- Ruby Solargraph
+- Rails db schema
+
