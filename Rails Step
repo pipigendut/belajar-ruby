@@ -71,7 +71,16 @@ sudo apt update
 apt-cache policy libssl1.0-dev
 sudo apt-get install libssl1.0-dev 
 
-
+setup db mongodb
+use payment_service
+db.createUser( 
+    { 
+        user: "admin",
+        pwd: "password",
+        roles: [{ role: "dbOwner", db: "payment_service" }],
+        mechanisms:["SCRAM-SHA-1"]
+    }
+)
 
 
 
