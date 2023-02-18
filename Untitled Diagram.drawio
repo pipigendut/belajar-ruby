@@ -1,14 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-02-18T14:52:43.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VEsgP2PxVr5p2OHJZBUU" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-18T15:03:27.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="655fQp_hAah1T1f448L-" version="20.8.20" type="github">
   <diagram name="design 1" id="KUrA7UWLleb97bcEqy_9">
-    <mxGraphModel dx="2049" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="320" y="300" width="1420" height="760" as="geometry" />
-        </mxCell>
-        <mxCell id="CYDH6EuIZnjbCyi7IanH-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="410" width="430" height="580" as="geometry" />
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;CLIENT&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="600" y="360" width="70" height="30" as="geometry" />
@@ -25,17 +22,14 @@
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;startArrow=none;startFill=0;" edge="1" parent="1" source="vpmTXEuCIFBYxDHL-QPA-7" target="vpmTXEuCIFBYxDHL-QPA-26">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1020" y="620" />
+              <mxPoint x="635" y="610" />
+              <mxPoint x="1020" y="610" />
               <mxPoint x="1020" y="803" />
-              <mxPoint x="1079" y="803" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-7" value="IoT Platform" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="505" y="520" width="260" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="vpmTXEuCIFBYxDHL-QPA-8" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Dashboard Web&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="505" y="480" width="260" height="30" as="geometry" />
+          <mxGeometry x="420" y="410" width="430" height="170" as="geometry" />
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;startArrow=classic;startFill=1;" edge="1" parent="1" source="vpmTXEuCIFBYxDHL-QPA-9" target="vpmTXEuCIFBYxDHL-QPA-26">
           <mxGeometry relative="1" as="geometry">
@@ -46,19 +40,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="505" y="730" width="260" height="200" as="geometry" />
+          <mxGeometry x="420" y="730" width="430" height="250" as="geometry" />
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-10" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Automatic Watering System&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="505" y="692" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;SENSOR&lt;br&gt;+ ACTUATOR&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="520" y="760" width="60" height="60" as="geometry" />
+          <mxGeometry x="520" y="820" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;startArrow=classic;startFill=1;" edge="1" parent="1" source="vpmTXEuCIFBYxDHL-QPA-15" target="vpmTXEuCIFBYxDHL-QPA-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-15" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;MICROCONTROLLER&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="630" y="760" width="110" height="60" as="geometry" />
+          <mxGeometry x="630" y="820" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vpmTXEuCIFBYxDHL-QPA-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="vpmTXEuCIFBYxDHL-QPA-24" target="vpmTXEuCIFBYxDHL-QPA-63">
           <mxGeometry relative="1" as="geometry" />
